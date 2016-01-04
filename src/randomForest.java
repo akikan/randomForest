@@ -80,8 +80,6 @@ public class randomForest {
 	/*
 	 * 関数名;learn
 	 * 詳細:学習します。treeNum,selectLabelNumを設定した後に使用して、その後にoutputやpredictといった関数を使用してください
-	 *
-	 *
 	 */
 	void learn(){
 		trees = new DecisionTree[treeNum];
@@ -102,5 +100,6 @@ public class randomForest {
 		this.trainData = trainData;
 		this.trainLabels = trainLabels;
 		selectLabelNum = Math.sqrt(trainLabels.size());
+		System.out.println(selectLabelNum);//*/
 	}
 }
