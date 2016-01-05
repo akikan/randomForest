@@ -2,7 +2,7 @@ package randomForest;
 
 import java.util.ArrayList;
 
-public class RFI {
+public class sample {
 
 	/**
 	 * @param args
