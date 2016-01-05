@@ -1,6 +1,7 @@
 package sample;
 
 import java.util.ArrayList;
+import randomForest.randomForest;
 
 public class sample {
 
