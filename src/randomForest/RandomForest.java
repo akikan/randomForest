@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class randomForest {
+public class RandomForest {
 
 	/*
 	 * 関数名:predict
@@ -96,7 +96,7 @@ public class randomForest {
 	DecisionTree[] trees;
 	Double selectLabelNum;
 
-	public randomForest(ArrayList<ArrayList<Double>> trainData, ArrayList<String> trainLabels){
+	public RandomForest(ArrayList<ArrayList<Double>> trainData, ArrayList<String> trainLabels){
 		this.trainData = trainData;
 		this.trainLabels = trainLabels;
 		selectLabelNum = Math.sqrt(trainLabels.size());

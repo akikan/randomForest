@@ -1,7 +1,7 @@
 package sample;
 
 import java.util.ArrayList;
-import randomForest.randomForest;
+import randomForest.RandomForest;
 
 public class sample {
 
@@ -55,7 +55,7 @@ public class sample {
 			data.add(seven);
 			data.add(eight);
 
-			randomForest RF = new randomForest(data,label);
+			RandomForest RF = new RandomForest(data,label);
 			RF.treeNum=10;//決定木の本数を任意で選択、デフォルトは10
 			//RF.selectLabelNum = Math.sqrt(label.size());//デフォルトは√(ラベルの数)
 			RF.learn();
