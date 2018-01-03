@@ -43,7 +43,7 @@ output("hogehoge.txt",true)で出力されたhogehoge.txtには
 これをhogehoge.txtの各行で行い最も多く返された文字列が予測されたデータとなります。  
 c++での実装例をsampleフォルダに載せてありますので参考にしてください。
 
-#導入方法
+# 導入方法
 1.eclipseを起動してjavaプロジェクトを作成します  
 2.作成したjavaプロジェクト内にrandomForestという名前のパッケージを作成します  
 3.本ページのsrcフォルダにある4つのjavaファイルをrandomForestパッケージに入れます  
